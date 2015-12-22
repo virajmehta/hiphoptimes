@@ -1,0 +1,2 @@
+# hiphoptimes
+This will trawl reddit ever 10min for a while and store the number of current visitors at reddit.com/r/hiphopheads
