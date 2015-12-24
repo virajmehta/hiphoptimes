@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 
 def main():
     while True:
-        import pdb; pdb.set_trace()
         headers = {'User-Agent': 'hasItDropped by 2miles4chicken'}
         x = requests.get('http://reddit.com/r/hiphopheads', headers=headers)
         if x.status_code == 200:
